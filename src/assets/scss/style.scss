@@ -1,0 +1,61 @@
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+body{
+	background-color: #fff;
+	font-size: 1rem;
+	color: darken(#cccccc,33%);
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-style: normal;
+}
+p,h1,h2,h3,h4,h5,h6,ul,
+ol,
+li{
+	margin: 0;
+}
+
+ul,
+ol,
+p{
+    padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: darken(#cccccc,33%);
+}
+
+@import "blocks/fontsavecome";
+@import "blocks/fonts";
+@import "blocks/banner";
+@import "blocks/section";
+@import "blocks/footer";
+@import "blocks/duty_class";
+@import "blocks/media";
+@import "blocks/tel";
+@import "blocks/header";
+@import "blocks/404";
+@import "blocks/calculator";
+@import "blocks/form";
+
+
+/*--Blocks
+
+
+@import "blocks/iconc";
+@import "blocks/section";
+
+@import "blocks/media";
+@import "blocks/tel";--*/
+

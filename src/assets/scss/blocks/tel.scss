@@ -1,0 +1,75 @@
+.container__tel__icons{
+	display: none;
+	position: fixed;
+	background-color: darken(#ffffff,15%);
+	width: 3.5em;
+	height: 3.5em;
+	right: 10%;
+	bottom: 6%;
+	border-radius: 50%;
+	z-index: 3000;
+	backdrop-filter: blur(1px);
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width:480px){
+	.container__tel__icons {
+		display: flex;
+	}
+}
+.container__tel__icons__position{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 50%;
+	align-items: center;
+}
+
+.container__tel__icons:before,
+.container__tel__icons:after
+{
+	content: '';
+	display: block;
+	position: absolute;
+	top: -.25em;
+	bottom: -.25em;
+	right: -.25em;
+	left: -.25em;
+	border-radius: 50%;
+	border: .1em solid #b508cd;
+	line-height: 3.5em;
+	animation: pulse 2s linear infinite;
+	opacity: 0;
+}
+.container__tel__icons:after {
+  animation-delay: 1.25s;
+}
+
+@keyframes pulse {
+  0% {
+	transform: scale(0.5);
+	opacity: 0;
+  }
+  50% {
+	opacity: 1;
+  }
+  100% {
+	transform: scale(1.2);
+	opacity: 0;
+  }
+}
+.container__tel__icons__img{
+	width: 1.5em;
+	aspect-ratio: 1/1.5;
+	object-fit: contain;
+}
+.container__tel__icons__a{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 6000;
+}

@@ -1,0 +1,241 @@
+._noflex{
+    display: block;
+}
+/*._gallery__txt{
+    padding-right: calc(100%/5);
+    padding-left: calc(100%/5);
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+
+}*/
+._gallery{
+    width: 66%;
+}
+._gright{
+    widows: 34%;
+}
+._a-i-centr{
+    align-items: center;
+}
+._col{
+    flex-direction: column;
+}
+._not-margin{
+    margin: 0;
+}
+._not__pading__img{
+    padding-left: 0;
+}
+._not__pading__txt{
+    padding-left: 0;
+}
+._nowrap{
+    flex-wrap: nowrap;
+}
+._nowidtch{
+    width: 50%;
+}
+._flexcol{
+    flex-direction: column;
+    align-items: center;
+}
+._not__pading__all{
+    padding: 0;
+}
+._transform{
+    transform: translate(6.5202%, 0%) translate3d(-19.5px, 0px, 0px);
+}
+._svg__footer svg{
+    width: 1.3em;
+    margin-right: 1em;
+}
+._copiraite{
+    background-color: #333;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+._footer{
+    padding-right: calc(100%/10);
+    padding-left: calc(100%/10);
+    background-color: lighten(#333,5%);
+    margin: 0;
+    color: #ffffff;
+}
+.footer__head{
+    border-bottom: 2px solid lighten(#333,25%);
+    width: 100%;
+    padding-bottom: .5em;
+
+}
+._footer-txt{
+    align-items: flex-start;
+    padding: 1em;
+}
+._footer-links{
+    align-items: flex-start;
+    padding: 1em;
+}
+._footer-links ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+._footer-links li{
+    width: 50%;
+}
+._not-margin-footer{
+    flex-wrap: nowrap;
+    margin: 0;
+}
+._not__pading__right{
+    padding: 0;
+}
+._blog{
+    padding-bottom: 1em;
+}
+._footer-blog{
+    align-items: flex-start;
+    padding: 1em;
+}
+._bootom-content{
+    display: none;
+}
+._bootom-content._active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+._img-null{
+    padding-right: calc(100%/10);
+    padding-left: calc(100%/5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+._img-null img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+._block-rol{
+    display: flex;
+    margin-top: 3em;
+}
+._buttom-rol{
+    padding-right: calc(100%/50);
+    padding-left: calc(100%/50);
+}
+._li-tabs-rol{
+    padding: .5em 5em;
+    margin-bottom: 1em;
+    flex-direction: row;
+}
+._li-tabs-rol._active:before{
+    border-radius: 10px;
+}
+._li-tabs-rol:hover:before{
+    border-radius: 10px;
+}
+._buttom-rol ul:after{
+    display: none;
+}
+._buttom-rol{
+    border-right: 1px solid #b508cd;
+}
+._roll img{
+    width: 100%;
+    aspect-ratio: 4/1.1;
+    object-fit: contain;
+}
+._roll-img img{
+    width: 50vw;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+._roll-txt{
+    padding: 0 1em;
+    align-items: center;
+}
+._wraper__txt-roll{
+    padding: 0;
+}
+._flex-roll{
+    margin: 0;
+}
+._gradient-right svg{
+    transform: rotateY(180deg);
+}
+._canva-roll{
+    padding: 0;
+    width: 150vw;
+
+}
+._txt__article-roll{
+    background: transparent;
+}
+._liner__size-roll{
+    height: 20vw;
+    margin: 0;
+}
+._liner__size-roll img{
+    padding: 0;
+    aspect-ratio: 3/2;
+}
+._gradient__bottom-roll{
+    bottom: -13px;
+}
+._rem p{
+    color: #fff;
+}
+._rem__1-2{
+    align-items: center;
+}
+._rem__txt__article{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+._rem__p__anim p{
+    color: darken(#595959,15%);
+}
+._rem__h2__anim{
+    color:  lighten(#333333, 15%);
+    -webkit-text-fill-color: lighten(#333333, 15%);
+}
+._flex{
+    display: flex;
+}
+._row{
+    flex-direction: row;
+}
+._price-h3{
+    width: 100%;
+    padding: 0 1em;
+    justify-content: flex-end;
+}
+._price-h3 h3{
+    padding: 0 .5em;
+}
+._svg-show._active svg path:nth-child(2n+3):nth-child(-n+9){
+    fill: #6f6546;
+    transition: top 5s ease-in 20s;
+}
+._svg-show._active svg path:nth-child(2n+12):nth-child(-n+18) {
+    fill: #6f6546;
+    transition: top 5s ease-in 20s;
+}
+._svg-show._active svg path:nth-child(2n+27):nth-child(-n+33) {
+    fill: #6f6546;
+    transition: top 5s ease-in 20s;
+}
+._svg-show._active svg path:nth-child(n+20):nth-child(-n+24) {
+    fill: #ffed00;
+    transition: top 5s ease-in 20s;
+}
+._svg-show._active svg path:nth-child(n+35):nth-child(-n+39) {
+    fill: #ffed00;
+    transition: top 5s ease-in 20s;
+}
